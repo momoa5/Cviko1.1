@@ -39,7 +39,7 @@ void Engine::startRendering() {
    -.2f, -.2f, .8f, 1, 1, 1, 0, 1,
    -.2f, .2f, .8f, 1, 0, 1, 1, 1,
    .2f, -.2f, .8f, 1 , 1, 0, 1, 1,
-   .2f, .2f, .8f, 1 , 1, 1, 1, 1,
+   .2f, .2f, .8f, 1 , 1, 1, 0, 1,
 	};
 
 	Shape* shape1 = new Shape(points1, 4, 4, 3);
